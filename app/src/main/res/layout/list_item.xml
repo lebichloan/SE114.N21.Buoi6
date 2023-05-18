@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="#2196F3"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/stt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="stt"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:id="@+id/work"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Làm bài tập về nhà"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/finishDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/02/2022"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginLeft="10dp" />
+</LinearLayout>
